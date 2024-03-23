@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Formulário</legend>
+            <label for="txtNome">Nome:</label>
+            <input type="text" placeholder="Insira seu nome">
+            <br><br>
+            <label for="txtSenha">Senha:</label>
+            <input type="password" placeholder="De 5 a 8 caracteres">
+            <br><br>
+            <label for="txtDataNasc">Data de nascimento:</label>
+            <input type="date">
+            <br><br>
+            <label for="txtNum">Número:</label>
+            <input type="number" min="0" max="999" step="2">
+            <br><br>
+            <label for="txtEmail">Email:</label>
+            <input type="email">
+            <br><br>
+            <input type="url">
+            <br><br>
+            <label>Estado:</label>
+            <label for="txtSite"></label>
+            <select name="" id="">
+                <option>MG</option>
+                <option>RJ</option>
+                <option>SP</option>
+            </select>
+            <br><br>
+            
+            <label>Sexo</label>
+            <input id="masc" type="radio" name="Sexo">
+            <label for="masc">Masculino</label>
+
+            <input id="fem" type="radio" name="Sexo">
+            <label for="fem">Feminino</label>
+
+            <br><br>
+            <label>Linguagens de Programação:</label><br>
+            <input id="c" type="checkbox">
+            <label for="c">C</label><br>
+            <input id="java" type="checkbox">
+            <label for="java">Java</label><br>
+            <input id="js" type="checkbox">
+            <label for="js">JavaScript</label><br>
+            <input id="py" type="checkbox">
+            <label for="py">Python</label>
+        </fieldset>
+    </form>
+</body>
+</html>
